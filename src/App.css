@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #b494e4;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+    top: 10%;
+    position: absolute;
+    left: 20%;
+    width: 800px;
+    height: 70vh;
+    /* border: 2px solid red; */
+    background-color: white;
+    border-radius: 15px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.formContainer{
+    border-radius: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn-box{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 40%;
+    /* border: 2px solid red; */
+    margin: 5px 5px;
+    font-size: 14px;
 }
-
-.App-link {
-  color: #61dafb;
+.tier-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-name{
+    margin: 5px;
+    padding: 15px;
+    border: none;
+    justify-content: space-around;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+    background-color: #9376be;
+}
+.btn-name:hover{
+    color: #34244c;
+}
+.form-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.form-2 > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px;
+}
+.form-2 > div > input{
+    border-radius: 5px;
+    padding: 7px;
+}
+.tier-3{
+    display: flex;
+    flex-direction: row;
+}
+.order{
+    background-color: #ffc966;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    position: absolute;
+    right: 15px;
+    padding: 15px;
+}
+.selection > label{
+    font-size: 20px;
+    margin: 2px 7px;
+}
+.active{
+    color: black;
+}
+p{
+    font-size: 30px;
+    font-weight: 700;
 }
